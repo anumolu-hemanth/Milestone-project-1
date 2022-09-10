@@ -1,0 +1,27 @@
+.trade-info {
+    text-align: center;
+    height: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 100px 30px;
+}
+
+.trade-info input,textarea {
+    width: 25%;
+}
+
+form input.form-fields {
+    margin-bottom: 20px;
+}
+
+.trade-info .submit-butn {
+    color: white;
+    background-color: black;
+    border: none;
+    height: 30px;
+    width: 60px;
+    font-weight: 600;
+}
+
+.trade-info .submit-butn {
+    cursor: pointer;
+}

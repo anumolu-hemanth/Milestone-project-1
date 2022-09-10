@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>  
+        <link href="./css/main.css" rel="stylesheet" type="text/css">
+        <link href="./css/newTrade.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+                <a href="index.html" target="_self"><img class="logo" src="./images/logo.png" alt="logo">
+                    <p class="brand-name">GAMERS STOP</p></a>
+            </div>
+            <div class="user-nav">
+                <ul>
+                    <li><a href="index.html" target="_self">Home</a></li>
+                    <li><a href="trades.html" target="_self">Games</a></li>
+                    <li>Cart</li>
+                    <li>About Us</li>
+                </ul>
+                <div class="user-info">
+                    <p class="user-status">SignIn</p>
+                    <p class="user-status"><a href="newTrade.html" target="_self">Start Trading</a></p>
+                </div>
+            </div>
+        </header>
+        <div class="article">
+            <section class="trade-info">
+                <form action="trades.html" target="_self">
+                    <label for="category">Category</label> &nbsp;
+                    <input class="form-fields" type="text" name="category" placeholder="Enter the category name"/><br>
+                    <label for="title">Title info</label> &nbsp;
+                    <input class="form-fields" type="text" name="title" placeholder="Enter the title"/><br>
+                    <label for="creator">Creator</label> &nbsp;
+                    <input class="form-fields" type="text" name="creator" placeholder="Enter the name"/><br>
+                    <label for="description">Details</label> &nbsp;
+                    <textarea class="form-fields" rows="6" cols="24" type="textarea" name="description" placeholder="Enter details here"></textarea><br>
+                    <input class="submit-butn" type="submit" clickname="Create Trade"/>
+                </form>
+            </section>
+            
+        </div>
+        <footer>&copy; GAMERS STOP Corp &nbsp;<span class="about-info">About Us &nbsp; Contact</span></footer>
+    </body>
+</html>
