@@ -11,3 +11,7 @@
 .items-content li a {
     text-decoration: unset;
 }
+
+footer {
+    position: relative;
+}
